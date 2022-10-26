@@ -15,4 +15,8 @@ public class AuthService {
         return false;
     }
 
+    public String chaneUser() {
+        return "normalUser";
+    }
+
 }
