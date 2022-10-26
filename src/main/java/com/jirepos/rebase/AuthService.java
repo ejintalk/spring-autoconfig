@@ -15,7 +15,9 @@ public class AuthService {
         }
         return false;
     }
-
+    public int checkLoginFail() {
+        return 1;
+    }
 
     public String chaneUser() {
         return "normalUser";
