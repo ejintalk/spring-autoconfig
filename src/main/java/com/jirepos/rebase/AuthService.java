@@ -7,7 +7,12 @@ public class AuthService {
             return true;
         }
         return false;
-
+    }
+    public boolean checkPasswd(String passwd) {
+        if (passwd.equals("1234")) {
+            return true;
+        }
+        return false;
     }
 
 }
